@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 881409095}
   - component: {fileID: 881409098}
   - component: {fileID: 881409094}
+  - component: {fileID: 881409099}
   m_Layer: 6
   m_Name: Rocket
   m_TagString: Untagged
@@ -322,7 +323,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 2
-  m_GravityScale: 0.2
+  m_GravityScale: 0.05
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -430,6 +431,19 @@ PolygonCollider2D:
       - {x: 0.5, y: -0.72999996}
       - {x: 0.5, y: 0.21}
       - {x: 0.48999998, y: 0.22999999}
+--- !u!114 &881409099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881409093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7941d2ff273ec4340a2ee755074b4fee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MAX_VELOCITY: 0.5
 --- !u!1 &1207878501
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +455,7 @@ GameObject:
   - component: {fileID: 1207878502}
   - component: {fileID: 1207878504}
   - component: {fileID: 1207878503}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5576,7 +5590,7 @@ GameObject:
   - component: {fileID: 1531426213}
   - component: {fileID: 1531426212}
   - component: {fileID: 1531426211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11670,7 +11684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638403209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.89062, y: -0.9861841, z: -10}
+  m_LocalPosition: {x: -10.63791, y: -0.9861841, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11775,7 +11789,7 @@ GameObject:
   - component: {fileID: 2009018759}
   - component: {fileID: 2009018758}
   - component: {fileID: 2009018757}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LandingPad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
